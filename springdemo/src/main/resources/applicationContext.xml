@@ -1,0 +1,10 @@
+<beans>
+    <bean id="userDao" class="com.atguigu.dao.impl.UserDaoImpl">
+        <property name="username" value="zhangsan"/>
+        <property name="password" value="123456"/>
+    </bean>
+
+    <bean id="userService" class="com.atguigu.service.impl.UserServiceImpl">
+        <property name="userDao" ref="userDao"/>
+    </bean>
+</beans>
