@@ -1,6 +1,6 @@
 package com.atguigu.framework.beans.factory.support;
 
-import com.atguigu.framework.beans.factory.BeanDefinition;
+import com.atguigu.framework.beans.BeanDefinition;
 
 import java.util.HashMap;
 import java.util.Map;

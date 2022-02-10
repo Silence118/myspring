@@ -1,4 +1,4 @@
-package com.atguigu.framework.beans.factory;
+package com.atguigu.framework.beans;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -17,8 +17,5 @@ import lombok.NoArgsConstructor;
 public class BeanDefinition {
     private String id;
     private String className;
-
     private MutablePropertyValues propertyValues;
-
-
 }

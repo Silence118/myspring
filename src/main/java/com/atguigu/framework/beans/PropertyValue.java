@@ -1,4 +1,4 @@
-package com.atguigu.framework.beans.factory;
+package com.atguigu.framework.beans;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
